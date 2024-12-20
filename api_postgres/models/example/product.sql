@@ -1,0 +1,1 @@
+SELECT * FROM {{source('product_db','product')}}

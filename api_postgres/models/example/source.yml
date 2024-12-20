@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: product_db
+    description: "ini adalah database untuk penyimpanan infromasi tentang product"
+    database: product_db
+    schema: public
+    tables:
+      - name: product
+        description: "table product berisi detail product pada databse"
+      - name: review_product
+        description: "table review product berisi review pembeli product"

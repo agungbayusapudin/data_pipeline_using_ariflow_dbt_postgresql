@@ -1,0 +1,227 @@
+[0m17:39:02.984234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cf86b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10858d010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10858cad0>]}
+
+
+============================== 17:39:02.988978 | e005c2d0-4710-422a-b91b-0447a5ecfa1c ==============================
+[0m17:39:02.988978 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:39:02.989511 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/macbook/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:39:13.041053 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:39:13.057284 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:39:13.057842 [info ] [MainThread]: Setting up your profile.
+[0m17:39:23.549532 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 20.647993, "process_in_blocks": "0", "process_kernel_time": 0.274999, "process_mem_max_rss": "95436800", "process_out_blocks": "0", "process_user_time": 1.004869}
+[0m17:39:23.553578 [debug] [MainThread]: Command `dbt init` succeeded at 17:39:23.552956 after 20.65 seconds
+[0m17:39:23.555294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108520740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10816bbc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085eeb10>]}
+[0m17:39:23.556422 [debug] [MainThread]: Flushing usage events
+[0m17:39:32.688538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106808a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107478f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107478a10>]}
+
+
+============================== 17:39:32.692441 | d72af419-3270-4ced-83d6-39e57515c26f ==============================
+[0m17:39:32.692441 [info ] [MainThread]: Running with dbt=1.8.9
+[0m17:39:32.692923 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/macbook/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:39:44.411476 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:39:44.440442 [info ] [MainThread]: 
+Your new dbt project "api_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:39:44.441199 [info ] [MainThread]: Setting up your profile.
+[0m17:40:27.858342 [info ] [MainThread]: Profile api_postgres written to /Users/macbook/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:40:27.864411 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 55.226093, "process_in_blocks": "0", "process_kernel_time": 0.226925, "process_mem_max_rss": "100089856", "process_out_blocks": "0", "process_user_time": 1.018501}
+[0m17:40:27.865534 [debug] [MainThread]: Command `dbt init` succeeded at 17:40:27.865326 after 55.23 seconds
+[0m17:40:27.866725 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107478c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061b26f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106808a10>]}
+[0m17:40:27.873709 [debug] [MainThread]: Flushing usage events
+[0m21:22:53.777508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108893890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b90fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b90aa0>]}
+
+
+============================== 21:22:53.787503 | 93d8ce71-58ad-4b7e-b147-cb76383c963f ==============================
+[0m21:22:53.787503 [info ] [MainThread]: Running with dbt=1.8.9
+[0m21:22:53.788018 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/macbook/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:22:53.801090 [info ] [MainThread]: dbt version: 1.8.9
+[0m21:22:53.801466 [info ] [MainThread]: python version: 3.12.7
+[0m21:22:53.801697 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m21:22:53.801922 [info ] [MainThread]: os info: macOS-15.0.1-arm64-arm-64bit
+[0m21:22:53.878931 [info ] [MainThread]: Using profiles dir at /Users/macbook/.dbt
+[0m21:22:53.879406 [info ] [MainThread]: Using profiles.yml file at /Users/macbook/.dbt/profiles.yml
+[0m21:22:53.879741 [info ] [MainThread]: Using dbt_project.yml file at /Users/macbook/Documents/data-engginering-study/docker-data-engginer/api-postgres-etl/dbt_project.yml
+[0m21:22:53.881157 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:22:53.886113 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.16970037, "process_in_blocks": "0", "process_kernel_time": 0.271574, "process_mem_max_rss": "99614720", "process_out_blocks": "0", "process_user_time": 1.040046}
+[0m21:22:53.886686 [debug] [MainThread]: Command `dbt debug` failed at 21:22:53.886595 after 0.17 seconds
+[0m21:22:53.886998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10876ec60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108be2120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ca2c30>]}
+[0m21:22:53.887343 [debug] [MainThread]: Flushing usage events
+[0m22:02:07.715016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b40c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898d0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10898caa0>]}
+
+
+============================== 22:02:07.719686 | b4c41a1c-ae54-484e-b54c-11fa99cbe717 ==============================
+[0m22:02:07.719686 [info ] [MainThread]: Running with dbt=1.8.9
+[0m22:02:07.720197 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/macbook/.dbt/', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug --profiles-dir /Users/macbook/.dbt/', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:02:07.731403 [info ] [MainThread]: dbt version: 1.8.9
+[0m22:02:07.731714 [info ] [MainThread]: python version: 3.12.7
+[0m22:02:07.731939 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m22:02:07.732136 [info ] [MainThread]: os info: macOS-15.0.1-arm64-arm-64bit
+[0m22:02:07.794423 [info ] [MainThread]: Using profiles dir at /Users/macbook/.dbt/
+[0m22:02:07.794779 [info ] [MainThread]: Using profiles.yml file at /Users/macbook/.dbt/profiles.yml
+[0m22:02:07.795003 [info ] [MainThread]: Using dbt_project.yml file at /Users/macbook/Documents/data-engginering-study/docker-data-engginer/api-postgres-etl/dbt_project.yml
+[0m22:02:07.795269 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:02:07.797193 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.14124358, "process_in_blocks": "0", "process_kernel_time": 0.244322, "process_mem_max_rss": "99975168", "process_out_blocks": "0", "process_user_time": 1.039605}
+[0m22:02:07.797588 [debug] [MainThread]: Command `dbt debug` failed at 22:02:07.797506 after 0.14 seconds
+[0m22:02:07.797846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108322d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10843fb30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089f7c80>]}
+[0m22:02:07.798112 [debug] [MainThread]: Flushing usage events
+[0m22:04:03.902650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c96ab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103dd08f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042d8d40>]}
+
+
+============================== 22:04:03.907203 | f5e62e76-462d-4bc6-a130-670066e0c8b5 ==============================
+[0m22:04:03.907203 [info ] [MainThread]: Running with dbt=1.8.9
+[0m22:04:03.907687 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/macbook/.dbt/', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug --profiles-dir /Users/macbook/.dbt/', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:04:03.918874 [info ] [MainThread]: dbt version: 1.8.9
+[0m22:04:03.919170 [info ] [MainThread]: python version: 3.12.7
+[0m22:04:03.919386 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m22:04:03.919590 [info ] [MainThread]: os info: macOS-15.0.1-arm64-arm-64bit
+[0m22:04:03.968020 [info ] [MainThread]: Using profiles dir at /Users/macbook/.dbt/
+[0m22:04:03.968369 [info ] [MainThread]: Using profiles.yml file at /Users/macbook/.dbt/profiles.yml
+[0m22:04:03.968592 [info ] [MainThread]: Using dbt_project.yml file at /Users/macbook/Documents/data-engginering-study/docker-data-engginer/api-postgres-etl/dbt_project.yml
+[0m22:04:03.968858 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:04:03.970390 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.118502334, "process_in_blocks": "0", "process_kernel_time": 0.198531, "process_mem_max_rss": "106233856", "process_out_blocks": "0", "process_user_time": 1.017602}
+[0m22:04:03.970768 [debug] [MainThread]: Command `dbt debug` failed at 22:04:03.970695 after 0.12 seconds
+[0m22:04:03.971030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103c96ab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042db3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1042d8c50>]}
+[0m22:04:03.971291 [debug] [MainThread]: Flushing usage events
+[0m22:34:23.274290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d97ce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108369130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108368bf0>]}
+
+
+============================== 22:34:23.278785 | 43c051eb-7edc-4600-8cd5-53ded35d868b ==============================
+[0m22:34:23.278785 [info ] [MainThread]: Running with dbt=1.8.9
+[0m22:34:23.279324 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/macbook/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug --profiles-dir /Users/macbook/.dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:34:23.290740 [info ] [MainThread]: dbt version: 1.8.9
+[0m22:34:23.291028 [info ] [MainThread]: python version: 3.12.7
+[0m22:34:23.291246 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m22:34:23.291440 [info ] [MainThread]: os info: macOS-15.0.1-arm64-arm-64bit
+[0m22:34:23.340119 [info ] [MainThread]: Using profiles dir at /Users/macbook/.dbt
+[0m22:34:23.340499 [info ] [MainThread]: Using profiles.yml file at /Users/macbook/.dbt/profiles.yml
+[0m22:34:23.340721 [info ] [MainThread]: Using dbt_project.yml file at /Users/macbook/Documents/data-engginering-study/docker-data-engginer/api-postgres-etl/dbt_project.yml
+[0m22:34:23.340998 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:34:23.342561 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.11991929, "process_in_blocks": "0", "process_kernel_time": 0.219838, "process_mem_max_rss": "103563264", "process_out_blocks": "0", "process_user_time": 1.084229}
+[0m22:34:23.342958 [debug] [MainThread]: Command `dbt debug` failed at 22:34:23.342885 after 0.12 seconds
+[0m22:34:23.343223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10804a210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f0f4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d20380>]}
+[0m22:34:23.343506 [debug] [MainThread]: Flushing usage events
+[0m22:34:44.556647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105ccd6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068d8fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068d89e0>]}
+
+
+============================== 22:34:44.560752 | 167c7554-82d6-4a85-938b-a412b3edf4e1 ==============================
+[0m22:34:44.560752 [info ] [MainThread]: Running with dbt=1.8.9
+[0m22:34:44.561268 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/macbook/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt clean', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:34:44.561919 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/macbook/Documents/data-engginering-study/docker-data-engginer/api-postgres-etl/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:34:44.563339 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": false, "command_wall_clock_time": 0.056633543, "process_in_blocks": "0", "process_kernel_time": 0.17316, "process_mem_max_rss": "99827712", "process_out_blocks": "0", "process_user_time": 0.972071}
+[0m22:34:44.563762 [debug] [MainThread]: Command `dbt clean` failed at 22:34:44.563676 after 0.06 seconds
+[0m22:34:44.564030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1065c1c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106216ff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058d5370>]}
+[0m22:34:44.564287 [debug] [MainThread]: Flushing usage events
+[0m23:05:35.785235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f6a660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089ad070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089acb90>]}
+
+
+============================== 23:05:35.789299 | 6d085c1a-880c-46b5-8a33-88a31379edc2 ==============================
+[0m23:05:35.789299 [info ] [MainThread]: Running with dbt=1.8.9
+[0m23:05:35.789620 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/macbook/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug --profiles-dir /Users/macbook/.dbt', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:05:35.797310 [info ] [MainThread]: dbt version: 1.8.9
+[0m23:05:35.797509 [info ] [MainThread]: python version: 3.12.7
+[0m23:05:35.797655 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m23:05:35.797787 [info ] [MainThread]: os info: macOS-15.0.1-arm64-arm-64bit
+[0m23:05:35.827678 [info ] [MainThread]: Using profiles dir at /Users/macbook/.dbt
+[0m23:05:35.827945 [info ] [MainThread]: Using profiles.yml file at /Users/macbook/.dbt/profiles.yml
+[0m23:05:35.828087 [info ] [MainThread]: Using dbt_project.yml file at /Users/macbook/Documents/data-engginering-study/docker-data-engginer/api-postgres-etl/dbt_project.yml
+[0m23:05:35.828409 [info ] [MainThread]: adapter type: postgres
+[0m23:05:35.828593 [info ] [MainThread]: adapter version: 1.8.2
+[0m23:05:35.828746 [info ] [MainThread]: Configuration:
+[0m23:05:35.828872 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:05:35.828992 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:05:35.829107 [info ] [MainThread]: Required dependencies:
+[0m23:05:35.829267 [debug] [MainThread]: Executing "git --help"
+[0m23:05:35.845681 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:05:35.846143 [debug] [MainThread]: STDERR: "b''"
+[0m23:05:35.846303 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:05:35.846454 [info ] [MainThread]: Connection:
+[0m23:05:35.846602 [info ] [MainThread]:   host: host.docker.internal
+[0m23:05:35.846949 [info ] [MainThread]:   port: 5432
+[0m23:05:35.847068 [info ] [MainThread]:   user: postgres
+[0m23:05:35.847181 [info ] [MainThread]:   database: product_db
+[0m23:05:35.847291 [info ] [MainThread]:   schema: public
+[0m23:05:35.847398 [info ] [MainThread]:   connect_timeout: 10
+[0m23:05:35.847517 [info ] [MainThread]:   role: None
+[0m23:05:35.847622 [info ] [MainThread]:   search_path: None
+[0m23:05:35.847730 [info ] [MainThread]:   keepalives_idle: 0
+[0m23:05:35.847835 [info ] [MainThread]:   sslmode: None
+[0m23:05:35.847938 [info ] [MainThread]:   sslcert: None
+[0m23:05:35.848046 [info ] [MainThread]:   sslkey: None
+[0m23:05:35.848151 [info ] [MainThread]:   sslrootcert: None
+[0m23:05:35.848254 [info ] [MainThread]:   application_name: dbt
+[0m23:05:35.848359 [info ] [MainThread]:   retries: 1
+[0m23:05:35.848651 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m23:05:35.889939 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m23:05:35.916896 [debug] [MainThread]: Using postgres connection "debug"
+[0m23:05:35.917122 [debug] [MainThread]: On debug: select 1 as id
+[0m23:05:35.917266 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:05:45.928003 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "host.docker.internal" (36.86.63.182), port 5432 failed: timeout expired
+
+[0m23:05:55.955725 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m23:05:55.958371 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m23:05:55.959392 [debug] [MainThread]: On debug: No close available on handle
+[0m23:05:55.960486 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m23:05:55.961990 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:05:55.962681 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/macbook/Documents/data-engginering-study/docker-data-engginer/api-postgres-etl/dbt_project.yml> not found
+
+[0m23:05:55.963198 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "host.docker.internal" (36.86.63.182), port 5432 failed: timeout expired
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m23:05:55.967638 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 20.21422, "process_in_blocks": "0", "process_kernel_time": 0.182644, "process_mem_max_rss": "111788032", "process_out_blocks": "0", "process_user_time": 0.699148}
+[0m23:05:55.969157 [debug] [MainThread]: Command `dbt debug` failed at 23:05:55.968858 after 20.22 seconds
+[0m23:05:55.970033 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:05:55.970907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a8eea0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10865b530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089acf50>]}
+[0m23:05:55.971914 [debug] [MainThread]: Flushing usage events

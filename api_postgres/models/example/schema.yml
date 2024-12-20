@@ -1,0 +1,144 @@
+version: 2
+
+
+models:
+  - name: product
+    description : "ini adalah table detail product"
+    columns:
+      - name: id_product
+        description: "ini adalah id product"
+        tests:
+          - not_null
+          - unique
+      - name: title
+        description: "ini adalah title product"
+        tests:
+          - not_null
+      - name: description
+        description: "ini adalah description product"
+        tests:
+          - not_null
+      - name: category
+        description: "ini adalah categori product"
+        tests:
+          - not_null
+      - name: price
+        description: "ini adalah harga product"
+        tests:
+          - not_null
+      - name: discountPercentage
+        description: "ini adalah presentase diskon product"
+        tests:
+          - not_null
+      - name: rating
+        description: "ini adalah rating product"
+        tests:
+          - not_null
+      - name: stock
+        description: "ini adalah stock product"
+        tests:
+          - not_null
+      - name: tags
+        description: "ini adalah tags product"
+        tests:
+          - not_null
+      - name: brand
+        description: "ini adalah brand product"
+        tests:
+          - not_null
+      - name: sku
+        description: "ini adalah sku product"
+        tests:
+          - not_null
+      - name: weight
+        description: "ini adalah weight product"
+        tests:
+          - not_null
+      - name: warrantyInformation
+        description: "ini adalah warrantyInformation product"
+        tests:
+          - not_null
+      - name: shippingInformation
+        description: "ini adalah shippingInformation product"
+        tests:
+          - not_null
+      - name: availabilityStatus
+        description: "ini adalah availabilityStatus product"
+        tests:
+          - not_null
+      - name: returnPolicy
+        description: "ini adalah returnPolicy product"
+        tests:
+          - not_null
+      - name: minimumOrderQuantity
+        description: "ini adalah minimumOrderQuantity product"
+        tests:
+          - not_null
+      - name: images
+        description: "ini adalah images product"
+        tests:
+          - not_null
+      - name: thumbnail
+        description: "ini adalah thumbnail product"
+        tests:
+          - not_null
+      - name: width
+        description: "ini adalah width product"
+        tests:
+          - not_null
+      - name: height
+        description: "ini adalah height product"
+        tests:
+          - not_null
+      - name: createdAt
+        description: "ini adalah createdAt product"
+        tests:
+          - not_null
+      - name: updatedAt
+        description: "ini adalah updatedAt product"
+        tests:
+          - not_null
+      - name: barcode
+        description: "ini adalah barcode product"
+        tests:
+          - not_null
+      - name: qrCode
+        description: "ini adalah qrCode product"
+        tests:
+          - not_null
+
+  - name: review_product
+    description : "ini adalah review product dari pembeli product"
+    columns:
+      - name: rating
+        description: "ini adalah rating product pada review_product tabel"
+        tests:
+          - not_null
+      - name: comment
+        description: "ini adalah comment product pada review_product tabel"
+        tests:
+          - not_null
+      - name: date
+        description: "ini adalah date product pada review_product tabel"
+        tests:
+          - not_null
+      - name: reviewerName
+        description: "ini adalah reviewerName product pada review_product tabel"
+        tests:
+          - not_null
+      - name: reviewerEmail
+        description: "ini adalah reviewerEmail product pada review_product tabel"
+        tests:
+          - not_null
+      - name: id_product
+        description: "ini adalah id product pada review_product tabel"
+        tests:
+          - not_null
+          - unique
+      - name: id_review
+        description: "ini adalah id id review pada review_product tabel"
+        tests:
+          - not_null
+          - unique
+      
+
